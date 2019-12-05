@@ -53,6 +53,9 @@ char calculToucheCombien(int ligne, int colonne);
 void deplace(char* x, char* y);
 void enleveTuilesAutour(char x, char y);
 bool demine(char x, char y);
+void afficheTabVue(void);
+void afficheTabMine(void);
+bool gagne(int* pMines);
 
 /****************** VARIABLES GLOBALES ****************************************/
 const char accueil[] = {"Labo6 de Frank"}; //message d'accueil au début du jeu 
@@ -62,7 +65,7 @@ char m_tabMines[NB_LIGNE][NB_COL+1];//Tableau contenant les mines, les espaces e
 /*               ***** PROGRAMME PRINCPAL *****                             */
 void main(void)
 {   
-    int nb = 10;
+    int nb = 2;
     int posX=10;
     int posY=2;
     initialisation();
@@ -76,18 +79,30 @@ void main(void)
     initTabVue();
     rempliMines(nb);
     metToucheCombien(); 
-      
+    
+
     while(1)
     {
+        lcd_gotoXY(posX,posY);
         lcd_montreCurseur();
         deplace(&posX,&posY);
         if(PORT_SW == 0)
         {
-            if(demine(posX,posY) == true)
+            while(PORT_SW == 0);
+            demine(posX,posY);
+            if(demine(posX,posY) == false || gagne(&nb)== true)
             {
-                
+                while(PORT_SW != 0)
+                {
+                    afficheTabMine();
+                }
+                lcd_effaceAffichage();
+                initTabVue();
+                rempliMines(nb);
+                metToucheCombien();
             }
         }
+        
         __delay_ms(100);
     }
 }
@@ -111,7 +126,7 @@ void initTabVue(void)
         }
         for(int g =0;g<NB_LIGNE;g++)
             {
-                lcd_gotoXY(1,g+1);
+                
                 lcd_putMessage(m_tabVue[g]);
             } 
     }
@@ -151,6 +166,37 @@ void rempliMines(int nb)
     }
     
 }
+
+/*
+ * @brief Vérifie si gagné. On a gagné quand le nombre de tuiles non dévoilées
+ * est égal au nombre de mines. On augmente de 1 le nombre de mines si on a 
+ * gagné.
+ * @param int* pMines. Le nombre de mine.
+ * @return vrai si gagné, faux sinon
+ */
+bool gagne(int* pMines)
+{
+    int nbrTuile =0;
+    for(int i=0;i<NB_LIGNE;i++)
+    {
+        for(int j=0;j<NB_COL;j++)
+        {
+            if(m_tabVue[i][j] == TUILE)
+            {
+                nbrTuile++;
+            }
+        }
+    }
+    if(nbrTuile == (*pMines))
+    {
+        (*pMines)= (*pMines)+1;
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 /*
  * @brief Rempli le tableau m_tabMines avec le nombre de mines que touche la case.
  * Si une case touche à 3 mines, alors la méthode place le code ascii de 3 dans
@@ -189,7 +235,7 @@ void metToucheCombien(void)
 char calculToucheCombien(int ligne, int colonne)
 {
     char nombre=0;
-    if((ligne-1 || ligne+1 < NB_LIGNE) && (colonne-1 || colonne+1 < NB_COL) )
+    if((ligne-1 >= NB_LIGNE || ligne+1 <= NB_LIGNE) && (colonne-1 >= NB_COL || colonne+1 <= NB_COL) )
     {
     
         if(m_tabMines[ligne-1][colonne-1]== MINE)
@@ -235,6 +281,7 @@ char calculToucheCombien(int ligne, int colonne)
  */
 void deplace(char* x, char* y)
 {
+    lcd_montreCurseur();
     if(getAnalog(AXE_X) > 220)
     {
         (*x) = (*x) +1;
@@ -278,6 +325,24 @@ void deplace(char* x, char* y)
         
     }
 }
+void afficheTabVue(void)
+{
+    for(int i =0;i<NB_LIGNE;i++)
+    {
+        lcd_gotoXY(1,i+1);
+        lcd_putMessage(m_tabVue[i]);
+    }
+}
+
+
+void afficheTabMine(void)
+{
+    for(int i =0;i<NB_LIGNE;i++)
+    {
+        lcd_gotoXY(1,i+1);
+        lcd_putMessage(m_tabMines[i]);
+    }
+}
 /*
  * @brief Dévoile une tuile (case) de m_tabVue. 
  * S'il y a une mine, retourne Faux. Sinon remplace la case et les cases autour
@@ -288,9 +353,22 @@ void deplace(char* x, char* y)
  */
 bool demine(char x, char y)
 {
-    lcd_gotoXY(x,y);
-    lcd_ecritChar(m_tabMines[y][x]);
-    
+    if(m_tabMines[y-1][x-1] == MINE)
+    {
+        return false;
+    }
+    if(m_tabMines[y-1][x-1] == 32)
+    {
+        enleveTuilesAutour(x-1,y-1);
+        
+    }
+    else
+    {
+        m_tabVue[y-1][x-1] = m_tabMines[y-1][x-1]; 
+        
+    }
+    afficheTabVue();
+    return true;
 }
  
 /*
@@ -301,6 +379,13 @@ bool demine(char x, char y)
  */
 void enleveTuilesAutour(char x, char y)
 {
+    for(int i=-1;i<2;i++)
+    {
+        for(int j=-1;j<2;j++)
+        {
+            m_tabVue[y+i][x+j] = m_tabMines[y+i][x+j];
+        }
+    }
     
 }
 /*
