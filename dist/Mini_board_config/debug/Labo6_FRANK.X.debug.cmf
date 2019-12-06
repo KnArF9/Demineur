@@ -55,7 +55,7 @@ idataBANK0 CODE 0 1E38 1E38 4 1
 idataBANK1 CODE 0 1CB4 1CB4 40 1
 dataBANK0 BANK0 1 E0 E0 4 1
 dataBANK1 BANK1 1 154 154 40 1
-$C:\Users\farch\AppData\Local\Temp\ss3g.o
+$C:\Users\farch\AppData\Local\Temp\sl2g.o
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 0 300000 300000 E 1
@@ -472,52 +472,52 @@ C44 text1 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
 1502 text0 CODE >101:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
 150E text0 CODE >102:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
 1512 text0 CODE >106:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1B6A cinit CODE >1568:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B6A cinit CODE >1570:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B6A cinit CODE >1573:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B6A cinit CODE >1607:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B6C cinit CODE >1608:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B6E cinit CODE >1609:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B70 cinit CODE >1610:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B72 cinit CODE >1611:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B74 cinit CODE >1612:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B76 cinit CODE >1613:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B7A cinit CODE >1614:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B7E cinit CODE >1615:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B7E cinit CODE >1616:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B80 cinit CODE >1617:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B84 cinit CODE >1618:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B86 cinit CODE >1619:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B88 cinit CODE >1620:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B8A cinit CODE >1624:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B8C cinit CODE >1625:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B8E cinit CODE >1626:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B90 cinit CODE >1627:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B92 cinit CODE >1628:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B94 cinit CODE >1629:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B96 cinit CODE >1630:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B9A cinit CODE >1631:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B9E cinit CODE >1632:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1B9E cinit CODE >1633:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BA0 cinit CODE >1634:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BA4 cinit CODE >1635:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BA6 cinit CODE >1636:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BA8 cinit CODE >1637:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BAA cinit CODE >1641:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BAE cinit CODE >1642:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BB0 cinit CODE >1643:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BB0 cinit CODE >1644:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BB2 cinit CODE >1645:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BB4 cinit CODE >1646:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BB6 cinit CODE >1649:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BBA cinit CODE >1650:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BBC cinit CODE >1651:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BBC cinit CODE >1652:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BBE cinit CODE >1653:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BC0 cinit CODE >1654:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BC2 cinit CODE >1660:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BC2 cinit CODE >1662:C:\Users\farch\AppData\Local\Temp\ss3g.s
-1BC4 cinit CODE >1663:C:\Users\farch\AppData\Local\Temp\ss3g.s
+1B6A cinit CODE >1568:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B6A cinit CODE >1570:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B6A cinit CODE >1573:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B6A cinit CODE >1607:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B6C cinit CODE >1608:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B6E cinit CODE >1609:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B70 cinit CODE >1610:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B72 cinit CODE >1611:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B74 cinit CODE >1612:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B76 cinit CODE >1613:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B7A cinit CODE >1614:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B7E cinit CODE >1615:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B7E cinit CODE >1616:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B80 cinit CODE >1617:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B84 cinit CODE >1618:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B86 cinit CODE >1619:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B88 cinit CODE >1620:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B8A cinit CODE >1624:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B8C cinit CODE >1625:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B8E cinit CODE >1626:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B90 cinit CODE >1627:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B92 cinit CODE >1628:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B94 cinit CODE >1629:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B96 cinit CODE >1630:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B9A cinit CODE >1631:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B9E cinit CODE >1632:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1B9E cinit CODE >1633:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BA0 cinit CODE >1634:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BA4 cinit CODE >1635:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BA6 cinit CODE >1636:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BA8 cinit CODE >1637:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BAA cinit CODE >1641:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BAE cinit CODE >1642:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BB0 cinit CODE >1643:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BB0 cinit CODE >1644:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BB2 cinit CODE >1645:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BB4 cinit CODE >1646:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BB6 cinit CODE >1649:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BBA cinit CODE >1650:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BBC cinit CODE >1651:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BBC cinit CODE >1652:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BBE cinit CODE >1653:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BC0 cinit CODE >1654:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BC2 cinit CODE >1660:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BC2 cinit CODE >1662:C:\Users\farch\AppData\Local\Temp\sl2g.s
+1BC4 cinit CODE >1663:C:\Users\farch\AppData\Local\Temp\sl2g.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -545,18 +545,18 @@ __HidataBANK0 0 0 ABS 0 idataBANK0 dist/Mini_board_config/debug\Labo6_FRANK.X.de
 __HidataBANK1 0 0 ABS 0 idataBANK1 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _lcd_ecrireDonnees 1DD8 0 CODE 0 text30 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\farch\AppData\Local\Temp\ss3g.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\farch\AppData\Local\Temp\sl2g.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _T1CONbits FCD 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _RCIF 7CF5 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _TMR1 FCE 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-___sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\ss3g.o
+___sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\sl2g.o
 _main 13D4 0 CODE 0 text0 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _rand 1BC8 0 CODE 0 text2 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 getAnalog@canal B5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-start 0 0 CODE 0 init C:\Users\farch\AppData\Local\Temp\ss3g.o
+start 0 0 CODE 0 init C:\Users\farch\AppData\Local\Temp\sl2g.o
 __size_of___awmod 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __size_of_main 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __size_of_rand 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
@@ -577,11 +577,11 @@ __end_of_lcd_wrCom 1B00 0 CODE 0 text28 dist/Mini_board_config/debug\Labo6_FRANK
 __size_of_metToucheCombien 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _lcd_curseurHome 1E12 0 CODE 0 text10 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _lcd_wrData 1D28 0 CODE 0 text26 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-__accesstop 60 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\ss3g.o
-intlevel0 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\ss3g.o
-intlevel1 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\ss3g.o
-intlevel2 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\ss3g.o
-intlevel3 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\ss3g.o
+__accesstop 60 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\sl2g.o
+intlevel0 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\sl2g.o
+intlevel1 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\sl2g.o
+intlevel2 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\sl2g.o
+intlevel3 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\sl2g.o
 __size_of_lcd_wrCom 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _lcd_resetSequence 1B00 0 CODE 0 text8 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __size_of_initTabVue 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
@@ -604,8 +604,8 @@ _ADCON1 FC1 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _ADRESH FC4 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _ANSELH F7F 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __end_of_enleveTuilesAutour 127A 0 CODE 0 text21 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\ss3g.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\ss3g.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\sl2g.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\sl2g.o
 __size_of_lcd_putMessage 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _initialisation 1CF4 0 CODE 0 text13 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
@@ -677,7 +677,7 @@ __Htext9 0 0 ABS 0 text9 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 _m_tabVue 100 0 BANK1 1 bssBANK1 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Hbigram 0 0 ABS 0 bigram dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\farch\AppData\Local\Temp\ss3g.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\farch\AppData\Local\Temp\sl2g.o
 __size_of_lcd_busy 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __size_of_lcd_init 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Hcomram 0 0 ABS 0 comram dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
@@ -840,8 +840,8 @@ _lcd_cacheCurseur 1E1A 0 CODE 0 text12 dist/Mini_board_config/debug\Labo6_FRANK.
 _lcd_putMessage 166A 0 CODE 0 text24 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 srand@x B4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Lfardata 0 0 FARRAM 0 fardata dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-stackhi 5EE 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\ss3g.o
-stacklo 194 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\ss3g.o
+stackhi 5EE 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\sl2g.o
+stacklo 194 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\sl2g.o
 __Lintcode 0 0 CODE 0 intcode dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Lintret 0 0 ABS 0 intret dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Lirdata 0 0 CODE 0 irdata dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
@@ -915,7 +915,7 @@ __Ltext30 0 0 ABS 0 text30 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Ltext31 0 0 ABS 0 text31 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Ltext32 0 0 ABS 0 text32 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Ltext33 0 0 ABS 0 text33 dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\farch\AppData\Local\Temp\ss3g.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\farch\AppData\Local\Temp\sl2g.o
 __size_of_afficheTabVue 0 0 ABS 0 - dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Lpowerup 0 0 CODE 0 powerup dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/Mini_board_config/debug\Labo6_FRANK.X.debug.o

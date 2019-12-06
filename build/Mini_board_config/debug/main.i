@@ -4978,7 +4978,7 @@ char m_tabMines[4][20+1];
 
 void main(void)
 {
-int nb = 2;
+int nb = 5;
 int posX=10;
 int posY=2;
 initialisation();

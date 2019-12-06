@@ -3277,8 +3277,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [f ]
 "68
 [v _nb `i ~T0 @X0 1 a ]
-[; ;main.c: 68: int nb = 2;
-[e = _nb -> 2 `i ]
+[; ;main.c: 68: int nb = 5;
+[e = _nb -> 5 `i ]
 "69
 [v _posX `i ~T0 @X0 1 a ]
 [; ;main.c: 69: int posX=10;

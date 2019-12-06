@@ -1,9 +1,13 @@
 /**
  * @file main.c  Labo #6
  * @author François Archambault
- * @date   
- * @brief  
- *
+ * @date   5 décembre 2019
+ * @brief  Le programme est un jeu de démineur. Le jeu commence et les cases du LCD sont toutes cachées. Le premier tour, il y a 5 mines et le but
+ * du jeu est de déminer toutes les mines. Pour déminer les mines, il faut se déplacer sur le LCD avec la manette. Pour déminer une case, il faut appuyer
+ * sur le bouton de la manette. Si la case déminée est un espace vide, les 8 cases autours de la case seront déminées. Si la case déminée est un chiffre,
+ * ça indique au joueur combien de mines la case touche. Si c'est une mine, la partie est fini et toutes les tuiles sont dévoilées. Si toutes les cases
+ * sans mine sont déminées, le joueur gagne la partie et pour recommencer à jouer, il doit appuyer sur le bouton et la partie va recommencer avec 
+ * une mine de plus dans le LCD.  
  * @version 1.0
  * Environnement:
  *     Développement: MPLAB X IDE (version 5.05)
@@ -65,7 +69,7 @@ char m_tabMines[NB_LIGNE][NB_COL+1];//Tableau contenant les mines, les espaces e
 /*               ***** PROGRAMME PRINCPAL *****                             */
 void main(void)
 {   
-    int nb = 2;
+    int nb = 5;
     int posX=10;
     int posY=2;
     initialisation();
@@ -84,26 +88,26 @@ void main(void)
     while(1)
     {
         lcd_gotoXY(posX,posY);
-        lcd_montreCurseur();
-        deplace(&posX,&posY);
-        if(PORT_SW == 0)
+        lcd_montreCurseur(); // montre le curseur à la position de posX et posY
+        deplace(&posX,&posY); //appel à la méthode deplace avec les adresses de posX et posY
+        if(PORT_SW == 0) //si le bouton est appuyé
         {
-            while(PORT_SW == 0);
-            demine(posX,posY);
-            if(demine(posX,posY) == false || gagne(&nb)== true)
+            while(PORT_SW == 0); //tant que le bouton est appuyé, reste bloqué
+            demine(posX,posY); //appel à la méthode demine avec poX et posY
+            if(demine(posX,posY) == false || gagne(&nb)== true) //si le retour de demine est faux ou si la méthode gagne est égal à vrai
             {
-                while(PORT_SW != 0)
+                while(PORT_SW != 0) //tant que le bouton n'est pas appuyé
                 {
-                    afficheTabMine();
+                    afficheTabMine(); //appel la méthode pour afficher le m_tabMines
                 }
-                lcd_effaceAffichage();
+                lcd_effaceAffichage(); //recommencer une nouvelle partie avec les paramètres de départ (quand perdu)
                 initTabVue();
                 rempliMines(nb);
                 metToucheCombien();
             }
         }
         
-        __delay_ms(100);
+        __delay_ms(100); //délai pour gérer le mouvement du curseur
     }
 }
 
@@ -118,7 +122,7 @@ void initTabVue(void)
 {
     int i,j =0;
     
-    for(i=0;i<NB_LIGNE;i++)
+    for(i=0;i<NB_LIGNE;i++) //compteur qui passe toutes les cases du tableau m_tabVue pour le remplir de Tuile
     {
         for(j=0;j<NB_COL;j++)
         {
@@ -127,7 +131,7 @@ void initTabVue(void)
         for(int g =0;g<NB_LIGNE;g++)
             {
                 
-                lcd_putMessage(m_tabVue[g]);
+                lcd_putMessage(m_tabVue[g]); //affiche sur le LCD
             } 
     }
 }
@@ -147,22 +151,22 @@ void rempliMines(int nb)
     int ligne =0;
     int colonne=0;
     
-    for(i=0;i<NB_LIGNE;i++)
+    for(i=0;i<NB_LIGNE;i++) //compteur qui passe toutes les cases du tableau m_tabMines pour le vider avec des ' ' 
     {
         for(j=0;j<NB_COL;j++)
         {
             m_tabMines[i][j] = ' ';
         }
     }
-    while(g != nb)
+    while(g != nb) // tant que g est différent du nombre de mines
     {
         do
         {
-            colonne =rand()%NB_COL;
-            ligne = rand()%NB_LIGNE;
-        }while(m_tabMines[ligne][colonne] != ' ');
-        m_tabMines[ligne][colonne] = MINE; 
-        g++;
+            colonne =rand()%NB_COL; //colonne aléatoire
+            ligne = rand()%NB_LIGNE;//ligne aléatoire
+        }while(m_tabMines[ligne][colonne] != ' '); //vérification pour voir s'il n'y a pas déjà une mine à cet endroit  
+        m_tabMines[ligne][colonne] = MINE; //met un mine à l'endroit aléatoire
+        g++; 
     }
     
 }
@@ -177,19 +181,19 @@ void rempliMines(int nb)
 bool gagne(int* pMines)
 {
     int nbrTuile =0;
-    for(int i=0;i<NB_LIGNE;i++)
+    for(int i=0;i<NB_LIGNE;i++) //compteur qui passe toutes les cases du tableau m_tabVue
     {
         for(int j=0;j<NB_COL;j++)
         {
-            if(m_tabVue[i][j] == TUILE)
+            if(m_tabVue[i][j] == TUILE) //condition pour voir si la case pointée par le compteur est une tuile
             {
-                nbrTuile++;
+                nbrTuile++; //si la condition est vrai, nbrTuile +1
             }
         }
     }
-    if(nbrTuile == (*pMines))
+    if(nbrTuile == (*pMines)) //si le nombre de tuile restante est égal au nombre de mines, le joueur a gagné
     {
-        (*pMines)= (*pMines)+1;
+        (*pMines)= (*pMines)+1; //augmentation du nombre de mines pour la prochaine partie
         return true;
     }
     else
@@ -209,17 +213,17 @@ bool gagne(int* pMines)
 void metToucheCombien(void)
 {
     char nombre=0;
-    for(int i=0;i<NB_LIGNE;i++)
+    for(int i=0;i<NB_LIGNE;i++)//compteur qui passe toutes les cases du tableau m_tabMines
     {
         for(int j=0;j<NB_COL;j++)
         {
-            if(m_tabMines[i][j] != MINE)
+            if(m_tabMines[i][j] != MINE) //si la case pointée par le compteur n'est pas une mine
             {
-                nombre = (calculToucheCombien(i,j));
+                nombre = (calculToucheCombien(i,j)); //appel à la méthode qui calcule le chiffre qu'il y aura à cet endroit. Résultat placé dans nombre
             }
-            if(nombre != 0)
+            if(nombre != 0) //si nombre n'est pas égal à 0
             {
-                m_tabMines[i][j] = nombre+48;
+                m_tabMines[i][j] = nombre+48; //48 = 0 dans la table ascii 49=1... 
 
             }
            nombre = 0;    
@@ -235,10 +239,10 @@ void metToucheCombien(void)
 char calculToucheCombien(int ligne, int colonne)
 {
     char nombre=0;
-    if((ligne-1 >= NB_LIGNE || ligne+1 <= NB_LIGNE) && (colonne-1 >= NB_COL || colonne+1 <= NB_COL) )
+    if((ligne-1 >= NB_LIGNE || ligne+1 <= NB_LIGNE) && (colonne-1 >= NB_COL || colonne+1 <= NB_COL) ) //condition de limite
     {
     
-        if(m_tabMines[ligne-1][colonne-1]== MINE)
+        if(m_tabMines[ligne-1][colonne-1]== MINE) //conditions pour savoir si la case a une ou plusieurs mines autours d'elle
         {
             nombre = nombre+1;
         }
@@ -282,64 +286,73 @@ char calculToucheCombien(int ligne, int colonne)
 void deplace(char* x, char* y)
 {
     lcd_montreCurseur();
-    if(getAnalog(AXE_X) > 220)
+    if(getAnalog(AXE_X) > 220)//si la manette est vers la droite sur l'axe des X
     {
-        (*x) = (*x) +1;
-        lcd_gotoXY(((*x)),(*y));
+        (*x) = (*x) +1; //valeur de *x +1 pour aller vers la droite
+        lcd_gotoXY(((*x)),(*y)); //pour que le curseur soit placé au bon endroit
         
-        if((*x) > 20) //si *x est plus grand que 20(qui est la colonne 20), envoyer le vaisseau à la colonne 1
+        if((*x) > 20) //si *x est plus grand que 20(qui est la colonne 20), envoyer le curseur à la colonne 1
         {
             (*x)=1;
         }        
     }
-    if(getAnalog(AXE_X) < 30)
+    if(getAnalog(AXE_X) < 30)//si la manette est vers la gauche sur l'axe des X
     {
-        (*x) = (*x) -1;
-        lcd_gotoXY(((*x)),(*y));
+        (*x) = (*x) -1;//valeur de *x -1 pour aller vers la gauche
+        lcd_gotoXY(((*x)),(*y));//pour que le curseur soit placé au bon endroit
          
-        if((*x) < 1)//si *x est plus petit que 1 (qui est la colonne 1), envoyer le vaisseau à la colonne 20
+        if((*x) < 1)//si *x est plus petit que 1 (qui est la colonne 1), envoyer le curseur à la colonne 20
         {
             (*x)=20;
         }        
     }
-    if(getAnalog(AXE_Y) > 220)
+    if(getAnalog(AXE_Y) > 220)//si la manette est vers le bas sur l'axe des Y
     {
-        (*y) = (*y) +1;
-        lcd_gotoXY(((*x)),(*y));
+        (*y) = (*y) +1;//valeur de *y +1 pour aller vers le bas
+        lcd_gotoXY(((*x)),(*y));//pour que le curseur soit placé au bon endroit
          
-        if(*y > 4)
+        if(*y > 4)//si *y est plus grand que 4 (ligne 4), envoyer le curseur à la ligne 1
         {
             *y=1;
         }          
         
     }
-    if(getAnalog(AXE_Y) < 30)
+    if(getAnalog(AXE_Y) < 30)//si la manette est vers le haut sur l'axe des Y
     {
-        (*y) = (*y) -1; 
-        lcd_gotoXY(((*x)),(*y));
+        (*y) = (*y) -1; //valeur de *y pour aller vers le haut
+        lcd_gotoXY(((*x)),(*y));//pour que le curseur soit placé au bon endroit
         
-        if(*y < 1)
+        if(*y < 1)//si la valeur de *y est plus petite que 1 (colonne 1), envoyer le curseur sur la ligne 4
         {
             *y=4;
         }         
         
     }
 }
+/**
+ * @brief affiche les lignes du tableau m_tabVue 
+ * @param rien
+ * @return rien
+ */
 void afficheTabVue(void)
 {
-    for(int i =0;i<NB_LIGNE;i++)
+    for(int i =0;i<NB_LIGNE;i++)//affiche les ligne du tableau m_tabVue
     {
-        lcd_gotoXY(1,i+1);
+        lcd_gotoXY(1,i+1);//i+1 car le tableau utilise de 0 à 3 et le LCD utilise 1 à 4
         lcd_putMessage(m_tabVue[i]);
     }
 }
 
-
+/**
+ * @brief affiche les lignes du tableau m_tabMines 
+ * @param rien
+ * @return rien
+ */
 void afficheTabMine(void)
 {
-    for(int i =0;i<NB_LIGNE;i++)
+    for(int i =0;i<NB_LIGNE;i++)//affiche les ligne du tableau m_tabMines
     {
-        lcd_gotoXY(1,i+1);
+        lcd_gotoXY(1,i+1);//i+1 car le tableau utilise de 0 à 3 et le LCD utilise 1 à 4
         lcd_putMessage(m_tabMines[i]);
     }
 }
@@ -353,21 +366,21 @@ void afficheTabMine(void)
  */
 bool demine(char x, char y)
 {
-    if(m_tabMines[y-1][x-1] == MINE)
+    if(m_tabMines[y-1][x-1] == MINE) //si la case déminée est égal à une mine. Le y et x sont -1 car le LCD est de 1 à 20 et le tableau est de 0 à 19
     {
-        return false;
+        return false;// retourne faux et le joueur à perdu
     }
-    if(m_tabMines[y-1][x-1] == 32)
+    if(m_tabMines[y-1][x-1] == 32) //si le case est égal à un espace (32 = ascii pour espace)
     {
-        enleveTuilesAutour(x-1,y-1);
+        enleveTuilesAutour(x-1,y-1); //appel à la fonction pour enlever 8 tuiles autours
         
     }
     else
     {
-        m_tabVue[y-1][x-1] = m_tabMines[y-1][x-1]; 
+        m_tabVue[y-1][x-1] = m_tabMines[y-1][x-1];// copie de la case du tableau m_tabMines dans le tableau m_tabVue pour être affichées
         
     }
-    afficheTabVue();
+    afficheTabVue(); //affiche m_tabVue
     return true;
 }
  
@@ -379,11 +392,11 @@ bool demine(char x, char y)
  */
 void enleveTuilesAutour(char x, char y)
 {
-    for(int i=-1;i<2;i++)
+    for(int i=-1;i<2;i++) //compteurs de 3 (i,j) pour faire le tour de la case déminée et qui est un espace 
     {
         for(int j=-1;j<2;j++)
         {
-            m_tabVue[y+i][x+j] = m_tabMines[y+i][x+j];
+            m_tabVue[y+i][x+j] = m_tabMines[y+i][x+j];// copie des cases du tableau m_tabMines dans le tableau m_tabVue pour être affichées
         }
     }
     

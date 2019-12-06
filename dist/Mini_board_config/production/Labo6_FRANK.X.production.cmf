@@ -12,46 +12,50 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-cinit CODE 0 15B4 15B4 5E 1
-text0 CODE 0 1122 1122 D6 1
-text1 CODE 0 A26 A26 21C 1
-text2 CODE 0 1612 1612 56 1
-text3 CODE 0 1472 1472 6C 1
-text4 CODE 0 12AC 12AC B2 1
-text5 CODE 0 FA8 FA8 17A 1
-text6 CODE 0 612 612 414 1
-text7 CODE 0 18A0 18A0 8 1
-text8 CODE 0 1816 1816 28 1
-text9 CODE 0 154A 154A 6A 1
-text10 CODE 0 135E 135E A2 1
-text11 CODE 0 18A8 18A8 8 1
-text12 CODE 0 1892 1892 E 1
-text13 CODE 0 18B0 18B0 8 1
-text14 CODE 0 1782 1782 34 1
-text15 CODE 0 1882 1882 10 1
-text16 CODE 0 E14 E14 194 1
-text17 CODE 0 11F8 11F8 B4 1
-text18 CODE 0 183E 183E 28 1
-text19 CODE 0 C42 C42 1D2 1
-text20 CODE 0 17EA 17EA 2C 1
-text21 CODE 0 16BC 16BC 44 1
-text22 CODE 0 1400 1400 72 1
-text23 CODE 0 1668 1668 54 1
-text24 CODE 0 17B6 17B6 34 1
-text25 CODE 0 14DE 14DE 6C 1
-text26 CODE 0 18B8 18B8 8 1
-text27 CODE 0 1866 1866 1C 1
-text28 CODE 0 1700 1700 42 1
-text29 CODE 0 18C0 18C0 6 1
+cinit CODE 0 1B6A 1B6A 5E 1
+text0 CODE 0 13D4 13D4 158 1
+text1 CODE 0 A2A A2A 21C 1
+text2 CODE 0 1BC8 1BC8 56 1
+text3 CODE 0 1A28 1A28 6C 1
+text4 CODE 0 171E 171E B2 1
+text5 CODE 0 FA2 FA2 17A 1
+text6 CODE 0 612 612 418 1
+text7 CODE 0 1D88 1D88 28 1
+text8 CODE 0 1B00 1B00 6A 1
+text9 CODE 0 17D0 17D0 A2 1
+text10 CODE 0 1E12 1E12 8 1
+text11 CODE 0 1E04 1E04 E 1
+text12 CODE 0 1E1A 1E1A 8 1
+text13 CODE 0 1CF4 1CF4 34 1
+text14 CODE 0 1DF4 1DF4 10 1
+text15 CODE 0 E1C E1C 186 1
+text16 CODE 0 127A 127A 15A 1
+text17 CODE 0 C46 C46 1D6 1
+text18 CODE 0 1E22 1E22 8 1
+text19 CODE 0 1D5C 1D5C 2C 1
+text20 CODE 0 152C 152C 13E 1
+text21 CODE 0 111C 111C 15E 1
+text22 CODE 0 1872 1872 A2 1
+text23 CODE 0 1914 1914 A2 1
+text24 CODE 0 166A 166A B4 1
+text25 CODE 0 1C1E 1C1E 54 1
+text26 CODE 0 1D28 1D28 34 1
+text27 CODE 0 19B6 19B6 72 1
+text28 CODE 0 1A94 1A94 6C 1
+text29 CODE 0 1E2A 1E2A 8 1
+text30 CODE 0 1DD8 1DD8 1C 1
+text31 CODE 0 1C72 1C72 42 1
+text32 CODE 0 1E32 1E32 6 1
+text33 CODE 0 1DB0 1DB0 28 1
 cstackBANK0 BANK0 1 B4 B4 2C 1
 bssBANK0 BANK0 1 60 60 54 1
 bssBANK1 BANK1 1 100 100 54 1
 smallconst SMALLCONST 0 600 600 12 1
-idataBANK0 CODE 0 18C6 18C6 4 1
-idataBANK1 CODE 0 1742 1742 40 1
+idataBANK0 CODE 0 1E38 1E38 4 1
+idataBANK1 CODE 0 1CB4 1CB4 40 1
 dataBANK0 BANK0 1 E0 E0 4 1
 dataBANK1 BANK1 1 154 154 40 1
-$C:\Users\farch\AppData\Local\Temp\s9fc.o
+$C:\Users\farch\AppData\Local\Temp\st1c.o
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 0 300000 300000 E 1
@@ -71,17 +75,17 @@ BANK3 300-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
 CONST 4-5FF 1
-CONST 18CA-7FFF 1
+CONST 1E3C-7FFF 1
 STACK 194-5FF 1
-SMALLCONST 18CA-7FFF 1
+SMALLCONST 1E3C-7FFF 1
 CODE 4-5FF 1
-CODE 18CA-7FFF 1
+CODE 1E3C-7FFF 1
 BIGRAM 1-5F 1
 BIGRAM E4-FF 1
 BIGRAM 194-5FF 1
 COMRAM 1-5F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 18CA-7FFF 1
+MEDIUMCONST 1E3C-7FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -96,370 +100,419 @@ MEDIUMCONST 18CA-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-18C0 text29 CODE >93:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18C0 text29 CODE >96:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18C4 text29 CODE >98:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1700 text28 CODE >124:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1700 text28 CODE >128:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1702 text28 CODE >129:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1704 text28 CODE >131:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1704 text28 CODE >133:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1706 text28 CODE >134:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1708 text28 CODE >135:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1718 text28 CODE >136:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-171A text28 CODE >137:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-171A text28 CODE >138:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-171C text28 CODE >139:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-171E text28 CODE >140:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1726 text28 CODE >141:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1728 text28 CODE >142:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1728 text28 CODE >144:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1738 text28 CODE >146:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-173A text28 CODE >147:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1740 text28 CODE >148:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1866 text27 CODE >107:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-186A text27 CODE >110:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1880 text27 CODE >115:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18B8 text26 CODE >431:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18B8 text26 CODE >433:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18BA text26 CODE >434:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18BC text26 CODE >435:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18BE text26 CODE >436:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14DE text25 CODE >156:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14E2 text25 CODE >158:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14E6 text25 CODE >160:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14EA text25 CODE >161:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14EA text25 CODE >163:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14EC text25 CODE >164:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14EE text25 CODE >166:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14F8 text25 CODE >167:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14FC text25 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-14FC text25 CODE >170:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1504 text25 CODE >171:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1508 text25 CODE >172:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1510 text25 CODE >174:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1536 text25 CODE >175:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1540 text25 CODE >177:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1544 text25 CODE >178:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1544 text25 CODE >179:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1548 text25 CODE >180:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17B6 text24 CODE >188:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17BA text24 CODE >190:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17BE text24 CODE >191:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17C2 text24 CODE >192:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17C2 text24 CODE >194:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17C4 text24 CODE >195:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17C6 text24 CODE >197:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17D0 text24 CODE >198:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17D4 text24 CODE >199:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17D4 text24 CODE >201:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17DC text24 CODE >202:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17E0 text24 CODE >203:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17E0 text24 CODE >205:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17E4 text24 CODE >206:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17E4 text24 CODE >207:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-17E8 text24 CODE >208:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1668 text23 CODE >359:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-166C text23 CODE >363:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1678 text23 CODE >364:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-167C text23 CODE >367:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1682 text23 CODE >368:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1686 text23 CODE >370:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-168C text23 CODE >371:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1690 text23 CODE >373:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1696 text23 CODE >374:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-169A text23 CODE >364:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-16BA text23 CODE >376:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1400 text22 CODE >314:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1404 text22 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1408 text22 CODE >319:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1414 text22 CODE >320:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1418 text22 CODE >322:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1424 text22 CODE >323:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1428 text22 CODE >325:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1434 text22 CODE >326:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1438 text22 CODE >328:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1444 text22 CODE >329:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1448 text22 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1470 text22 CODE >331:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-16BC text21 CODE >289:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-16C0 text21 CODE >291:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-16CC text21 CODE >292:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-16FE text21 CODE >294:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17EA text20 CODE >311:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17EE text20 CODE >313:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1802 text20 CODE >314:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1802 text20 CODE >315:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1804 text20 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1804 text20 CODE >317:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1812 text20 CODE >318:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1814 text20 CODE >319:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C42 text19 CODE >236:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C42 text19 CODE >238:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C5C text19 CODE >240:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C76 text19 CODE >241:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C92 text19 CODE >243:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-CAA text19 CODE >245:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-CB6 text19 CODE >248:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-CD0 text19 CODE >250:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-CEA text19 CODE >251:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D06 text19 CODE >253:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D1E text19 CODE >255:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D2A text19 CODE >258:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D44 text19 CODE >260:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D5E text19 CODE >261:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D7A text19 CODE >263:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D92 text19 CODE >265:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-D9E text19 CODE >269:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-DB8 text19 CODE >271:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-DD2 text19 CODE >272:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-DEE text19 CODE >274:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E06 text19 CODE >276:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E12 text19 CODE >280:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-183E text18 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-183E text18 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-184C text18 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-1854 text18 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-185C text18 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-1864 text18 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
-11F8 text17 CODE >387:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-11F8 text17 CODE >391:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1202 text17 CODE >392:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-124E text17 CODE >391:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-12AA text17 CODE >393:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-E14 text16 CODE >102:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E14 text16 CODE >104:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E1E text16 CODE >106:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E4A text16 CODE >108:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-E76 text16 CODE >110:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-EBE text16 CODE >108:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-EE2 text16 CODE >112:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-F0E text16 CODE >114:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-F1C text16 CODE >115:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-F5E text16 CODE >112:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-F82 text16 CODE >106:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-FA6 text16 CODE >118:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1882 text15 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1882 text15 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1890 text15 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1782 text14 CODE >325:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1782 text14 CODE >327:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1786 text14 CODE >329:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-178A text14 CODE >330:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-178C text14 CODE >332:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1790 text14 CODE >333:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1794 text14 CODE >337:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1796 text14 CODE >338:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17A2 text14 CODE >341:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17A4 text14 CODE >343:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17A6 text14 CODE >344:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17AA text14 CODE >346:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17AC text14 CODE >347:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17B0 text14 CODE >348:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-17B4 text14 CODE >350:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-18B0 text13 CODE >401:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18B0 text13 CODE >403:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18B6 text13 CODE >404:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1892 text12 CODE >276:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1892 text12 CODE >278:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1898 text12 CODE >279:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-189E text12 CODE >280:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18A8 text11 CODE >288:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18A8 text11 CODE >290:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18AE text11 CODE >291:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-135E text10 CODE >417:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-135E text10 CODE >421:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1364 text10 CODE >422:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1380 text10 CODE >424:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-139C text10 CODE >425:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-13CE text10 CODE >424:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-13E4 text10 CODE >422:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-13FA text10 CODE >427:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-13FE text10 CODE >428:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-154A text9 CODE >221:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-154A text9 CODE >226:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-154E text9 CODE >228:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1562 text9 CODE >229:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1564 text9 CODE >230:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1566 text9 CODE >232:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-156C text9 CODE >233:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1570 text9 CODE >234:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1578 text9 CODE >237:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-157E text9 CODE >238:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1582 text9 CODE >239:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-158A text9 CODE >241:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1590 text9 CODE >242:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1594 text9 CODE >243:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-159C text9 CODE >245:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-15A2 text9 CODE >246:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-15A6 text9 CODE >247:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-15AE text9 CODE >249:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-15B2 text9 CODE >250:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1816 text8 CODE >258:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1816 text8 CODE >261:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-181A text8 CODE >262:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1820 text8 CODE >263:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1826 text8 CODE >264:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-182C text8 CODE >265:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1832 text8 CODE >266:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-1838 text8 CODE >267:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-183C text8 CODE >268:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18A0 text7 CODE >412:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18A0 text7 CODE >414:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-18A6 text7 CODE >415:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
-612 text6 CODE >189:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-612 text6 CODE >191:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-618 text6 CODE >192:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-6E0 text6 CODE >195:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-746 text6 CODE >197:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-74C text6 CODE >199:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-7B2 text6 CODE >201:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-7B8 text6 CODE >203:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-81E text6 CODE >205:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-824 text6 CODE >207:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-88A text6 CODE >209:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-890 text6 CODE >211:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-8EE text6 CODE >213:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-8F4 text6 CODE >215:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-952 text6 CODE >217:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-958 text6 CODE >219:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-9B6 text6 CODE >221:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-9BC text6 CODE >223:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A1A text6 CODE >225:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A20 text6 CODE >228:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A24 text6 CODE >229:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-FA8 text5 CODE >163:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-FA8 text5 CODE >165:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-FAE text5 CODE >166:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-FDA text5 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1006 text5 CODE >170:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-105C text5 CODE >172:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1074 text5 CODE >174:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1086 text5 CODE >176:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-10D2 text5 CODE >179:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-10D8 text5 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-10FC text5 CODE >166:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1120 text5 CODE >182:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-12AC text4 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12AC text4 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12B2 text4 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12C0 text4 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12C8 text4 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12CC text4 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12DA text4 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12E2 text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12F4 text4 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12F8 text4 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-12FC text4 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1302 text4 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1304 text4 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1312 text4 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1328 text4 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1330 text4 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1336 text4 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-133C text4 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-134C text4 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1354 text4 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-135C text4 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
-1472 text3 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-1472 text3 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-1484 text3 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-1492 text3 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-14A2 text3 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-14AC text3 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-14B6 text3 CODE >125:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-14CC text3 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-14DC text3 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
-1612 text2 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1612 text2 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1648 text2 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-165A text2 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-1666 text2 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
-A26 text1 CODE >126:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A26 text1 CODE >128:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A30 text1 CODE >129:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A3A text1 CODE >130:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A44 text1 CODE >131:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A4A text1 CODE >132:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A54 text1 CODE >133:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A5E text1 CODE >135:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-A8A text1 CODE >137:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-AB6 text1 CODE >139:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-AFE text1 CODE >137:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-B22 text1 CODE >135:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-B4A text1 CODE >146:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-B6C text1 CODE >147:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-B7C text1 CODE >148:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-BD2 text1 CODE >149:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C1A text1 CODE >150:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C20 text1 CODE >142:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-C40 text1 CODE >153:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1122 text0 CODE >63:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1122 text0 CODE >65:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-112C text0 CODE >66:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1136 text0 CODE >67:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1140 text0 CODE >68:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1144 text0 CODE >69:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1148 text0 CODE >70:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-114C text0 CODE >71:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1150 text0 CODE >72:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-115C text0 CODE >73:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1174 text0 CODE >74:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1190 text0 CODE >75:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1194 text0 CODE >76:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-1198 text0 CODE >77:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11A4 text0 CODE >78:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11A8 text0 CODE >82:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11AC text0 CODE >83:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11C4 text0 CODE >84:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11D2 text0 CODE >86:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-11DE text0 CODE >91:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
-15B4 cinit CODE >1558:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15B4 cinit CODE >1560:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15B4 cinit CODE >1563:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15B4 cinit CODE >1597:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15B6 cinit CODE >1598:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15B8 cinit CODE >1599:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15BA cinit CODE >1600:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15BC cinit CODE >1601:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15BE cinit CODE >1602:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15C0 cinit CODE >1603:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15C4 cinit CODE >1604:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15C8 cinit CODE >1605:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15C8 cinit CODE >1606:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15CA cinit CODE >1607:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15CE cinit CODE >1608:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15D0 cinit CODE >1609:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15D2 cinit CODE >1610:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15D4 cinit CODE >1614:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15D6 cinit CODE >1615:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15D8 cinit CODE >1616:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15DA cinit CODE >1617:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15DC cinit CODE >1618:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15DE cinit CODE >1619:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15E0 cinit CODE >1620:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15E4 cinit CODE >1621:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15E8 cinit CODE >1622:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15E8 cinit CODE >1623:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15EA cinit CODE >1624:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15EE cinit CODE >1625:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15F0 cinit CODE >1626:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15F2 cinit CODE >1627:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15F4 cinit CODE >1631:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15F8 cinit CODE >1632:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15FA cinit CODE >1633:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15FA cinit CODE >1634:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15FC cinit CODE >1635:C:\Users\farch\AppData\Local\Temp\s9fc.s
-15FE cinit CODE >1636:C:\Users\farch\AppData\Local\Temp\s9fc.s
-1600 cinit CODE >1639:C:\Users\farch\AppData\Local\Temp\s9fc.s
-1604 cinit CODE >1640:C:\Users\farch\AppData\Local\Temp\s9fc.s
-1606 cinit CODE >1641:C:\Users\farch\AppData\Local\Temp\s9fc.s
-1606 cinit CODE >1642:C:\Users\farch\AppData\Local\Temp\s9fc.s
-1608 cinit CODE >1643:C:\Users\farch\AppData\Local\Temp\s9fc.s
-160A cinit CODE >1644:C:\Users\farch\AppData\Local\Temp\s9fc.s
-160C cinit CODE >1650:C:\Users\farch\AppData\Local\Temp\s9fc.s
-160C cinit CODE >1652:C:\Users\farch\AppData\Local\Temp\s9fc.s
-160E cinit CODE >1653:C:\Users\farch\AppData\Local\Temp\s9fc.s
+1DB0 text33 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1DB0 text33 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1DBE text33 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1DC6 text33 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1DCE text33 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1DD6 text33 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+1E32 text32 CODE >93:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E32 text32 CODE >96:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E36 text32 CODE >98:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C72 text31 CODE >124:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C72 text31 CODE >128:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C74 text31 CODE >129:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C76 text31 CODE >131:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C76 text31 CODE >133:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C78 text31 CODE >134:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C7A text31 CODE >135:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C8A text31 CODE >136:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C8C text31 CODE >137:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C8C text31 CODE >138:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C8E text31 CODE >139:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C90 text31 CODE >140:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C98 text31 CODE >141:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C9A text31 CODE >142:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C9A text31 CODE >144:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1CAA text31 CODE >146:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1CAC text31 CODE >147:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1CB2 text31 CODE >148:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DD8 text30 CODE >107:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DDC text30 CODE >110:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DF2 text30 CODE >115:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E2A text29 CODE >431:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E2A text29 CODE >433:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E2C text29 CODE >434:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E2E text29 CODE >435:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E30 text29 CODE >436:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1A94 text28 CODE >156:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1A98 text28 CODE >158:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1A9C text28 CODE >160:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AA0 text28 CODE >161:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AA0 text28 CODE >163:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AA2 text28 CODE >164:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AA4 text28 CODE >166:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AAE text28 CODE >167:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AB2 text28 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AB2 text28 CODE >170:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1ABA text28 CODE >171:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1ABE text28 CODE >172:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AC6 text28 CODE >174:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AEC text28 CODE >175:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AF6 text28 CODE >177:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AFA text28 CODE >178:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AFA text28 CODE >179:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1AFE text28 CODE >180:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19B6 text27 CODE >314:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19BA text27 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19BE text27 CODE >319:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19CA text27 CODE >320:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19CE text27 CODE >322:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19DA text27 CODE >323:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19DE text27 CODE >325:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19EA text27 CODE >326:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19EE text27 CODE >328:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19FA text27 CODE >329:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+19FE text27 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1A26 text27 CODE >331:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D28 text26 CODE >188:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D2C text26 CODE >190:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D30 text26 CODE >191:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D34 text26 CODE >192:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D34 text26 CODE >194:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D36 text26 CODE >195:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D38 text26 CODE >197:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D42 text26 CODE >198:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D46 text26 CODE >199:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D46 text26 CODE >201:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D4E text26 CODE >202:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D52 text26 CODE >203:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D52 text26 CODE >205:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D56 text26 CODE >206:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D56 text26 CODE >207:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D5A text26 CODE >208:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C1E text25 CODE >359:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C22 text25 CODE >363:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C2E text25 CODE >364:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C32 text25 CODE >367:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C38 text25 CODE >368:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C3C text25 CODE >370:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C42 text25 CODE >371:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C46 text25 CODE >373:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C4C text25 CODE >374:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C50 text25 CODE >364:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1C70 text25 CODE >376:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+166A text24 CODE >387:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+166A text24 CODE >391:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1674 text24 CODE >392:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+16C0 text24 CODE >391:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+171C text24 CODE >393:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1914 text23 CODE >338:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1914 text23 CODE >340:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1940 text23 CODE >342:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+194E text23 CODE >343:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1990 text23 CODE >340:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+19B4 text23 CODE >345:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1872 text22 CODE >328:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1872 text22 CODE >330:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+189E text22 CODE >332:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+18AC text22 CODE >333:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+18EE text22 CODE >330:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1912 text22 CODE >335:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+111C text21 CODE >380:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1120 text21 CODE >382:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1148 text21 CODE >383:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1148 text21 CODE >384:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1170 text21 CODE >386:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1230 text21 CODE >384:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1254 text21 CODE >382:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1278 text21 CODE >390:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+152C text20 CODE >354:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1530 text20 CODE >356:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+157E text20 CODE >358:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1584 text20 CODE >360:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+15D2 text20 CODE >362:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+15E2 text20 CODE >364:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+15E6 text20 CODE >367:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1662 text20 CODE >370:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1666 text20 CODE >371:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1668 text20 CODE >372:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D5C text19 CODE >396:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D60 text19 CODE >398:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D74 text19 CODE >399:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D74 text19 CODE >400:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D76 text19 CODE >401:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D76 text19 CODE >402:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D84 text19 CODE >403:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D86 text19 CODE >404:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1E22 text18 CODE >412:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E22 text18 CODE >414:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E28 text18 CODE >415:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+C46 text17 CODE >282:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C46 text17 CODE >284:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C4A text17 CODE >285:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C64 text17 CODE >287:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C7E text17 CODE >288:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C9A text17 CODE >290:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+CB2 text17 CODE >292:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+CBE text17 CODE >295:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+CD8 text17 CODE >297:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+CF2 text17 CODE >298:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D0E text17 CODE >300:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D26 text17 CODE >302:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D32 text17 CODE >305:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D4C text17 CODE >307:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D66 text17 CODE >308:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D82 text17 CODE >310:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+D9A text17 CODE >312:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+DA6 text17 CODE >316:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+DC0 text17 CODE >318:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+DDA text17 CODE >319:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+DF6 text17 CODE >321:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E0E text17 CODE >323:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E1A text17 CODE >327:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+127A text16 CODE >177:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+127A text16 CODE >179:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1284 text16 CODE >180:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+12B0 text16 CODE >182:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+12DC text16 CODE >184:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1330 text16 CODE >186:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1336 text16 CODE >182:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1336 text16 CODE >187:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+135A text16 CODE >180:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+137E text16 CODE >190:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13A0 text16 CODE >192:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13CA text16 CODE >193:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13D0 text16 CODE >197:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13D2 text16 CODE >199:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E1C text15 CODE >117:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E1C text15 CODE >119:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E26 text15 CODE >121:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E52 text15 CODE >123:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+E7E text15 CODE >125:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+EC6 text15 CODE >123:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+EEA text15 CODE >127:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+F16 text15 CODE >130:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+F58 text15 CODE >127:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+F7C text15 CODE >121:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+FA0 text15 CODE >133:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1DF4 text14 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1DF4 text14 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1E02 text14 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1CF4 text13 CODE >410:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1CF4 text13 CODE >412:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1CF8 text13 CODE >414:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1CFC text13 CODE >415:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1CFE text13 CODE >417:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D02 text13 CODE >418:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D06 text13 CODE >422:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D08 text13 CODE >423:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D14 text13 CODE >426:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D16 text13 CODE >428:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D18 text13 CODE >429:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D1C text13 CODE >431:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D1E text13 CODE >432:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D22 text13 CODE >433:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1D26 text13 CODE >435:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1E1A text12 CODE >401:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E1A text12 CODE >403:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E20 text12 CODE >404:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E04 text11 CODE >276:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E04 text11 CODE >278:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E0A text11 CODE >279:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E10 text11 CODE >280:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E12 text10 CODE >288:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E12 text10 CODE >290:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1E18 text10 CODE >291:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+17D0 text9 CODE >417:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+17D0 text9 CODE >421:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+17D6 text9 CODE >422:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+17F2 text9 CODE >424:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+180E text9 CODE >425:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1840 text9 CODE >424:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1856 text9 CODE >422:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+186C text9 CODE >427:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1870 text9 CODE >428:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B00 text8 CODE >221:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B00 text8 CODE >226:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B04 text8 CODE >228:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B18 text8 CODE >229:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B1A text8 CODE >230:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B1C text8 CODE >232:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B22 text8 CODE >233:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B26 text8 CODE >234:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B2E text8 CODE >237:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B34 text8 CODE >238:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B38 text8 CODE >239:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B40 text8 CODE >241:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B46 text8 CODE >242:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B4A text8 CODE >243:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B52 text8 CODE >245:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B58 text8 CODE >246:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B5C text8 CODE >247:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B64 text8 CODE >249:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1B68 text8 CODE >250:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D88 text7 CODE >258:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D88 text7 CODE >261:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D8C text7 CODE >262:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D92 text7 CODE >263:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D98 text7 CODE >264:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1D9E text7 CODE >265:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DA4 text7 CODE >266:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DAA text7 CODE >267:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+1DAE text7 CODE >268:C:\Users\farch\Desktop\Labo6_FRANK.X\Lcd4Lignes.c
+612 text6 CODE >235:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+612 text6 CODE >237:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+618 text6 CODE >238:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+6E4 text6 CODE >241:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+74A text6 CODE >243:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+750 text6 CODE >245:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+7B6 text6 CODE >247:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+7BC text6 CODE >249:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+822 text6 CODE >251:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+828 text6 CODE >253:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+88E text6 CODE >255:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+894 text6 CODE >257:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+8F2 text6 CODE >259:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+8F8 text6 CODE >261:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+956 text6 CODE >263:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+95C text6 CODE >265:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+9BA text6 CODE >267:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+9C0 text6 CODE >269:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A1E text6 CODE >271:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A24 text6 CODE >274:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A28 text6 CODE >275:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+FA2 text5 CODE >209:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+FA2 text5 CODE >211:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+FA8 text5 CODE >212:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+FD4 text5 CODE >214:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1000 text5 CODE >216:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1056 text5 CODE >218:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+106E text5 CODE >220:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1080 text5 CODE >222:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+10CC text5 CODE >225:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+10D2 text5 CODE >214:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+10F6 text5 CODE >212:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+111A text5 CODE >228:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+171E text4 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+171E text4 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1724 text4 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1732 text4 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+173A text4 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+173E text4 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+174C text4 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1754 text4 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1766 text4 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+176A text4 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+176E text4 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1774 text4 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1776 text4 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1784 text4 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+179A text4 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17A2 text4 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17A8 text4 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17AE text4 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17BE text4 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17C6 text4 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+17CE text4 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+1A28 text3 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A28 text3 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A3A text3 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A48 text3 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A58 text3 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A62 text3 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A6C text3 CODE >125:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A82 text3 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1A92 text3 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+1BC8 text2 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1BC8 text2 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1BFE text2 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1C10 text2 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+1C1C text2 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\rand.c
+A2A text1 CODE >141:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A2A text1 CODE >143:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A34 text1 CODE >144:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A3E text1 CODE >145:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A48 text1 CODE >146:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A4E text1 CODE >147:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A58 text1 CODE >148:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A62 text1 CODE >150:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+A8E text1 CODE >152:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+ABA text1 CODE >154:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+B02 text1 CODE >152:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+B26 text1 CODE >150:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+B4E text1 CODE >161:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+B70 text1 CODE >162:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+B80 text1 CODE >163:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+BD6 text1 CODE >164:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C1E text1 CODE >165:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C24 text1 CODE >157:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+C44 text1 CODE >168:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13D4 text0 CODE >66:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13D4 text0 CODE >68:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13DE text0 CODE >69:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13E8 text0 CODE >70:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13F2 text0 CODE >71:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13F6 text0 CODE >72:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13FA text0 CODE >73:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+13FE text0 CODE >74:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1402 text0 CODE >75:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+140E text0 CODE >76:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1426 text0 CODE >77:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1442 text0 CODE >78:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1446 text0 CODE >79:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+144A text0 CODE >80:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1456 text0 CODE >81:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+145A text0 CODE >86:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1466 text0 CODE >87:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+146A text0 CODE >88:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1482 text0 CODE >89:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1490 text0 CODE >91:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+149E text0 CODE >92:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+14AA text0 CODE >93:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+14E8 text0 CODE >97:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+14EC text0 CODE >95:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+14FA text0 CODE >99:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+14FE text0 CODE >100:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1502 text0 CODE >101:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+150E text0 CODE >102:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1512 text0 CODE >106:C:\Users\farch\Desktop\Labo6_FRANK.X\main.c
+1B6A cinit CODE >1568:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B6A cinit CODE >1570:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B6A cinit CODE >1573:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B6A cinit CODE >1607:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B6C cinit CODE >1608:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B6E cinit CODE >1609:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B70 cinit CODE >1610:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B72 cinit CODE >1611:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B74 cinit CODE >1612:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B76 cinit CODE >1613:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B7A cinit CODE >1614:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B7E cinit CODE >1615:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B7E cinit CODE >1616:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B80 cinit CODE >1617:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B84 cinit CODE >1618:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B86 cinit CODE >1619:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B88 cinit CODE >1620:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B8A cinit CODE >1624:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B8C cinit CODE >1625:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B8E cinit CODE >1626:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B90 cinit CODE >1627:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B92 cinit CODE >1628:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B94 cinit CODE >1629:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B96 cinit CODE >1630:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B9A cinit CODE >1631:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B9E cinit CODE >1632:C:\Users\farch\AppData\Local\Temp\st1c.s
+1B9E cinit CODE >1633:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BA0 cinit CODE >1634:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BA4 cinit CODE >1635:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BA6 cinit CODE >1636:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BA8 cinit CODE >1637:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BAA cinit CODE >1641:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BAE cinit CODE >1642:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BB0 cinit CODE >1643:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BB0 cinit CODE >1644:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BB2 cinit CODE >1645:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BB4 cinit CODE >1646:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BB6 cinit CODE >1649:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BBA cinit CODE >1650:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BBC cinit CODE >1651:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BBC cinit CODE >1652:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BBE cinit CODE >1653:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BC0 cinit CODE >1654:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BC2 cinit CODE >1660:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BC2 cinit CODE >1662:C:\Users\farch\AppData\Local\Temp\st1c.s
+1BC4 cinit CODE >1663:C:\Users\farch\AppData\Local\Temp\st1c.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -476,29 +529,29 @@ lcd_ecritChar@car B7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Lab
 __LdataBANK0 0 0 ABS 0 dataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LdataBANK1 0 0 ABS 0 dataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_calculToucheCombien A26 0 CODE 0 text6 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_calculToucheCombien A2A 0 CODE 0 text6 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _matCGRAM 154 0 BANK1 1 dataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hspace_0 30000E 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hspace_1 194 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_IESO$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_curseurHome 18B0 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_curseurHome 1E1A 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HidataBANK1 0 0 ABS 0 idataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_ecrireDonnees 1866 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\farch\AppData\Local\Temp\s9fc.o
+_lcd_ecrireDonnees 1DD8 0 CODE 0 text30 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\farch\AppData\Local\Temp\st1c.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _T1CONbits FCD 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _RCIF 7CF5 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _TMR1 FCE 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\s9fc.o
-_main 1122 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_rand 1612 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\st1c.o
+_main 13D4 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_rand 1BC8 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 getAnalog@canal B5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-start 0 0 CODE 0 init C:\Users\farch\AppData\Local\Temp\s9fc.o
+start 0 0 CODE 0 init C:\Users\farch\AppData\Local\Temp\st1c.o
 __size_of___awmod 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_main 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_rand 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -511,21 +564,21 @@ rempliMines@nb C8 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_
 lcd_wrCom@commande B6 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LidataBANK1 0 0 ABS 0 idataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_metToucheCombien 1122 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_metToucheCombien 111C 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___awmod@sign C7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_gotoXY 1472 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_wrCom 154A 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_gotoXY 1A28 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_wrCom 1B00 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_metToucheCombien 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_curseurHome 18A8 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_wrData 17B6 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\s9fc.o
-intlevel0 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\s9fc.o
-intlevel1 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\s9fc.o
-intlevel2 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\s9fc.o
-intlevel3 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\s9fc.o
+_lcd_curseurHome 1E12 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_wrData 1D28 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\st1c.o
+intlevel0 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\st1c.o
+intlevel1 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\st1c.o
+intlevel2 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\st1c.o
+intlevel3 0 0 CODE 0 text C:\Users\farch\AppData\Local\Temp\st1c.o
 __size_of_lcd_wrCom 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_resetSequence 154A 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_resetSequence 1B00 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_initTabVue 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_EBTR0$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -534,49 +587,54 @@ __CFG_EBTR2$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.prod
 __CFG_EBTR3$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-demine@x BC 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-demine@y B9 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+demine@x D0 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+demine@y C7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_deplace C42 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_wrCom 14DE 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_deplace C46 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_wrCom 1A94 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_initCGRam 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___wmul@multiplicand B6 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_FOSC$INTIO67 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ADRESH FC4 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ANSELH F7F 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\s9fc.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\s9fc.o
+__end_of_enleveTuilesAutour 127A 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\st1c.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\farch\AppData\Local\Temp\st1c.o
 __size_of_lcd_putMessage 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_initialisation 1782 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of___lmul 14DE 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of___wmul 1866 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_initialisation 1CF4 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of___lmul 1A94 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of___wmul 1DD8 0 CODE 0 text33 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+afficheTabMine@i C5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_montreCurseur 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_getAnalog 1816 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_getAnalog 1D88 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _BAUDCONbits FB8 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_getAnalog 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of___awmod 135E 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of___awmod 17D0 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _accueil 601 0 SMALLCONST 0 smallconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_initCGRam 1400 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_wrData 17EA 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_demine 1700 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_initCGRam 1872 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_wrData 1D5C 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_demine 166A 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 metToucheCombien@nombre C7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_getAnalog 17EA 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__size_of_afficheTabMine 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_enleveTuilesAutour 111C 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_getAnalog 1D5C 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__size_of_gagne 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_strobeEnableBit 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_srand 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_rempliMines C42 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_rempliMines C46 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-start_initialization 15B4 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+start_initialization 1B6A 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_curseurHome 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_PBADEN$ON 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _TRISCbits F94 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_initialisation 17B6 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_initialisation 1D28 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_wrData@caractere B6 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___rparam_used 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 deplace@x B9 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -586,7 +644,7 @@ __CFG_WDTPS$32768 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.pr
 _SPBRGH FB0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __pcstackBANK0 B4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_busy@adresse B5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_strobeEnableBit 18B8 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_strobeEnableBit 1E2A 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -614,7 +672,7 @@ __Htext9 0 0 ABS 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.product
 _m_tabVue 100 0 BANK1 1 bssBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\farch\AppData\Local\Temp\s9fc.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\farch\AppData\Local\Temp\st1c.o
 __size_of_lcd_busy 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_init 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -649,7 +707,7 @@ __Hfarbss 0 0 FARRAM 0 farbss dist/Mini_board_config/production\Labo6_FRANK.X.pr
 __Lintcode_body 0 0 ABS 0 intcode_body dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _PORTAbits F80 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _PORTBbits F81 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_montreCurseur 18A8 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_montreCurseur 1E2A 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hdata 0 0 ABS 0 data dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hinit 4 0 CODE 0 init dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -665,8 +723,8 @@ __Lrbss 0 0 COMRAM 1 rbss dist/Mini_board_config/production\Labo6_FRANK.X.produc
 __Ltemp 0 0 COMRAM 1 temp dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Ltext 0 0 ABS 0 text dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_XINST$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-___lmul 1472 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-___wmul 183E 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+___lmul 1A28 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+___wmul 1DB0 0 CODE 0 text33 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintret 0 0 ABS 0 intret dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -675,13 +733,14 @@ __S1 194 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __S2 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _m_tabMines 60 0 BANK0 1 bssBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 calculToucheCombien@ligne BA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_demine 16BC 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_demine 152C 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hparam0 0 0 BANK0 1 param0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CCP2MX$PORTC 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_busy 1700 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_init 1816 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_busy 1C72 0 CODE 0 text31 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_init 1D88 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+afficheTabVue@i C5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hramtop 600 0 RAM 0 ramtop dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __pdataBANK0 E0 0 BANK0 1 dataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -692,10 +751,10 @@ __size_of_rempliMines 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.
 __Hstruct 0 0 COMRAM 1 struct dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of___lmul 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of___wmul 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_busy 1742 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_busy 1CB4 0 CODE 0 text31 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __LbssBANK1 0 0 ABS 0 bssBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_init 183E 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_init 1DB0 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Htext10 0 0 ABS 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Htext11 0 0 ABS 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Htext12 0 0 ABS 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -716,35 +775,44 @@ __Htext26 0 0 ABS 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.produ
 __Htext27 0 0 ABS 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Htext28 0 0 ABS 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Htext29 0 0 ABS 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_putMessage@chaine BA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___awmod@counter C6 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _RCSTAbits FAB 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_strobeEnableBit 18C0 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_afficheTabVue 1872 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_strobeEnableBit 1E32 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_HFOFST$ON 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext10 135E 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext11 18A8 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext12 1892 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext13 18B0 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext14 1782 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext15 1882 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext16 E14 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext17 11F8 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext18 183E 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext19 C42 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext20 17EA 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext21 16BC 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext22 1400 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext23 1668 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext24 17B6 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext25 14DE 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext26 18B8 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext27 1866 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext28 1700 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext29 18C0 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext10 1E12 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext11 1E04 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext12 1E1A 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext13 1CF4 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext14 1DF4 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext15 E1C 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext16 127A 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext17 C46 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext18 1E22 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext19 1D5C 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext20 152C 0 CODE 0 text20 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext21 111C 0 CODE 0 text21 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext22 1872 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext23 1914 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext24 166A 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext25 1C1E 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext26 1D28 0 CODE 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext27 19B6 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext28 1A94 0 CODE 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext29 1E2A 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext30 1DD8 0 CODE 0 text30 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext31 1C72 0 CODE 0 text31 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext32 1E32 0 CODE 0 text32 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext33 1DB0 0 CODE 0 text33 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_effaceAffichage 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_ecrireDonnees 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_lireDonnees 18C6 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-___awmod 12AC 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_lireDonnees 1E38 0 CODE 0 text32 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+___awmod 171E 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_BORV$18 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -754,27 +822,28 @@ __size_of_deplace 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.pr
 ?_rand C0 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lconfig 300000 0 CONFIG 0 config dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_ecritChar 1668 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_ecritChar 1C1E 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___wmul@multiplier B4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_montreCurseur 18A0 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__size_of_enleveTuilesAutour 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_montreCurseur 1E22 0 CODE 0 text18 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_initCGRam@i B9 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_initCGRam@j BA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 main@posX DC 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 main@posY DE 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_cacheCurseur 18B0 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_putMessage 11F8 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_cacheCurseur 1E1A 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_putMessage 166A 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 srand@x B4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-stackhi 5FF 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\s9fc.o
-stacklo 194 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\s9fc.o
+stackhi 5FF 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\st1c.o
+stacklo 194 0 ABS 0 - C:\Users\farch\AppData\Local\Temp\st1c.o
 __Lintcode 0 0 CODE 0 intcode dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lintret 0 0 ABS 0 intret dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ADCON0bits FC2 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ADCON2bits FC0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_LVP$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_initTabVue E14 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_initTabVue E1C 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lspace_0 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -782,37 +851,40 @@ main@nb DA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X
 __size_of_calculToucheCombien 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@endroitMine CD 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_effaceAffichage 1892 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_effaceAffichage 1E04 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+gagne@nbrTuile BF 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_resetSequence 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-end_of_initialization 160C 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_lireDonnees 18C0 0 CODE 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+end_of_initialization 1BC2 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_lireDonnees 1E32 0 CODE 0 text32 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_afficheTabMine 1914 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_putMessage@j C2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_STVREN$ON 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ?___awmod C2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lparam0 0 0 BANK0 1 param0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+gagne@pMines BA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hreset_vec 0 0 CODE 0 reset_vec dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HbssBANK1 0 0 ABS 0 bssBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___awmod@dividend C2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lramtop 600 0 RAM 0 ramtop dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_initialisation 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__pcinit 15B4 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-initTabVue@g C9 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__pcinit 1B6A 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+initTabVue@g C7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 initTabVue@i C5 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-initTabVue@j C7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_putMessage 12AC 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext0 1122 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext1 A26 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext2 1612 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext3 1472 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext4 12AC 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext5 FA8 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+initTabVue@j C9 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_putMessage 171E 0 CODE 0 text24 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext0 13D4 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext1 A2A 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext2 1BC8 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext3 1A28 0 CODE 0 text3 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext4 171E 0 CODE 0 text4 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext5 FA2 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __ptext6 612 0 CODE 0 text6 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext7 18A0 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext8 1816 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ptext9 154A 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext7 1D88 0 CODE 0 text7 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext8 1B00 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ptext9 17D0 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Ltext10 0 0 ABS 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Ltext11 0 0 ABS 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -834,37 +906,48 @@ __Ltext26 0 0 ABS 0 text26 dist/Mini_board_config/production\Labo6_FRANK.X.produ
 __Ltext27 0 0 ABS 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Ltext28 0 0 ABS 0 text28 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Ltext29 0 0 ABS 0 text29 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\farch\AppData\Local\Temp\s9fc.o
+__Ltext30 0 0 ABS 0 text30 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\farch\AppData\Local\Temp\st1c.o
+__size_of_afficheTabVue 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _calculToucheCombien 612 0 CODE 0 text6 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __psmallconst 600 0 SMALLCONST 0 smallconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_deplace E14 0 CODE 0 text19 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_deplace E1C 0 CODE 0 text17 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@g CE 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@i D4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@j D6 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_initTabVue FA8 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_cacheCurseur 18B8 0 CODE 0 text13 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_initTabVue FA2 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_cacheCurseur 1E22 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_ecritChar 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___param_bank 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of__initialization 160C 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of__initialization 1BC2 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___awmod@divisor C4 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRT0$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRT1$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRT2$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRT3$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_ecrireDonnees 1882 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_ecrireDonnees 1DF4 0 CODE 0 text30 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+enleveTuilesAutour@i C0 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+enleveTuilesAutour@j C2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+enleveTuilesAutour@x BF 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+enleveTuilesAutour@y BA 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_WRTD$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__pidataBANK0 18C6 0 CODE 0 idataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__pidataBANK1 1742 0 CODE 0 idataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_afficheTabMine 19B6 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__pidataBANK0 1E38 0 CODE 0 idataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__pidataBANK1 1CB4 0 CODE 0 idataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_cacheCurseur 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___lmul@product BC 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_afficheTabVue 1914 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___lmul@multiplicand B8 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_PWRT$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ANSELbits F7E 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -873,14 +956,17 @@ __end_of_accueil 610 0 SMALLCONST 0 smallconst dist/Mini_board_config/production
 lcd_gotoXY@x B8 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_gotoXY@y B7 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+gagne@i C1 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+gagne@j C3 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 calculToucheCombien@colonne BC 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_main 11F8 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_rand 1668 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_rempliMines A26 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_main 152C 0 CODE 0 text0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_rand 1C1E 0 CODE 0 text2 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_rempliMines A2A 0 CODE 0 text1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@ligne D0 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_ecritChar 16BC 0 CODE 0 text23 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_ecritChar 1C72 0 CODE 0 text25 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _ANSEL F7E 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_effaceAffichage 18A0 0 CODE 0 text12 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_effaceAffichage 1E12 0 CODE 0 text11 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_gagne 13D4 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __size_of_lcd_lireDonnees 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _PORTD F83 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _RCREG FAE 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -889,7 +975,7 @@ _TRISA F92 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.
 _TRISB F93 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _TRISD F95 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _TXREG FAD 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_srand 1892 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_srand 1E04 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CP0$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CP1$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HRAM 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -902,25 +988,26 @@ __Lram 0 0 ABS 0 ram dist/Mini_board_config/production\Labo6_FRANK.X.production.
 __Lsfr 0 0 ABS 0 sfr dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CP2$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CP3$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_gagne 127A 0 CODE 0 text16 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CPB$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __CFG_CPD$OFF 0 0 ABS 0 - dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 _randx E0 0 BANK0 1 dataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_srand 1882 0 CODE 0 text15 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_metToucheCombien FA8 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_srand 1DF4 0 CODE 0 text14 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_metToucheCombien FA2 0 CODE 0 text5 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 lcd_ecritChar@posRam B8 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __HdataBANK1 0 0 ABS 0 dataBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 calculToucheCombien@nombre C3 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__end_of_lcd_resetSequence 15B4 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-__initialization 15B4 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__end_of_lcd_resetSequence 1B6A 0 CODE 0 text8 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+__initialization 1B6A 0 CODE 0 cinit dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __pbssBANK0 60 0 BANK0 1 bssBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __pbssBANK1 100 0 BANK1 1 bssBANK1 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 ___wmul@product B8 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hsmallconst 612 0 SMALLCONST 0 smallconst dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_gotoXY 1400 0 CODE 0 text22 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
-_lcd_initCGRam 135E 0 CODE 0 text10 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_gotoXY 19B6 0 CODE 0 text27 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
+_lcd_initCGRam 17D0 0 CODE 0 text9 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 __Hintcode 0 0 CODE 0 intcode dist/Mini_board_config/production\Labo6_FRANK.X.production.o
 rempliMines@colonne D2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\Labo6_FRANK.X.production.o
@@ -949,7 +1036,7 @@ rempliMines@colonne D2 0 BANK0 1 cstackBANK0 dist/Mini_board_config/production\L
 # All other numeric quantities are in decimal.
 %SEGMENTS
 idloc 0 200000 200000 8 1
-text6 0 612 612 12B8 1
+text6 0 612 612 182A 1
 reset_vec 0 0 0 4 1
 bssBANK0 1 60 60 84 1
 bssBANK1 1 100 100 94 1
